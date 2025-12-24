@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" verbose="1">
+    <listeners>
+        <listener class-name="betterment.bonds.org.retryListener.RetryListener"></listener>
+    </listeners>>
+    <test name="Regression">
+        <classes>
+            <class name="betterment.bonds.org.bondsMainPage.BondsMainPageTest"/>
+        </classes>
+    </test>
+</suite>
